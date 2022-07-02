@@ -1,1 +1,21 @@
-o Git Bash � um terminal extendido para otimizar o uso do Git
+Link para download do Git: 
+
+PASSO A PASSO 
+Criei um novo repositório no GitHub
+Em seguida clonei o repositório a partir de um link
+Na minha máquina criei uma pasta, que receberá o meu repositório
+Dentro da pasta, abri o Git Bash
+o Git Bash é um terminal extendido para otimizar o uso do Git
+O primeiro comando foi o git clone
+**git clone** (colar o link copiado do repositório) e Enter
+Ao observar na minha máquina, deverá aparecer uma pasta com o conteúdo que foi criado no GitHub
+em seguida, ao digitar **git status**, observamos as informações sobre a pasta
+Criei uma nova pastinha dentro do repositório, desta vez, a partir da minha máquina
+Abri um documento de texto (esse que vos fala!) e, desta forma, modifiquei mais uma vez o conteúdo, mas não no GitHub e sim, na minha máquina
+No terminal Git Bash, ao digitar git status, veremos a informação de que existe uma pasta nova
+A informação aparece em vermelho
+Para adicionar essa nova pasta criada ao repositório, utilizamos o comando **git add .**
+Novamente com o comando **git status** podemos observar que a informação em vermelho, mudou para a cor verde, ou seja, foi adicionado no controle de versão LOCAL (Git)
+o comando seguinte será o **git commit -m "incluir uma mensagem para esse comit"** que cria um comit para o arquivo em evidência
+Nesse estágio estamos com um comit LOCAL e para enviá-lo para a nuvem (GitHub), será necessário outro comando
+**git push origin main** envia todos os comits locais para a nuvem.
