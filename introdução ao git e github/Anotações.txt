@@ -1,4 +1,4 @@
-Link para download do Git: 
+Link para download do Git: https://github.com/Veruskamc/dio-desafio.git
 
 PASSO A PASSO 
 Criei um novo repositório no GitHub
